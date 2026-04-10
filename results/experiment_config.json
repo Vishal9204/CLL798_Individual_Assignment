@@ -1,0 +1,21 @@
+{
+  "connectivity_values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "replicates": 5,
+  "node_count": 450,
+  "steps": 5500,
+  "burn_in": 1000,
+  "sample_interval": 10,
+  "base_buffer": 1.5,
+  "buffer_slope": 0.4,
+  "large_avalanche_threshold": 20,
+  "seed": 42,
+  "example_node_count": 36,
+  "example_min_size": 8,
+  "example_max_size": 18
+}

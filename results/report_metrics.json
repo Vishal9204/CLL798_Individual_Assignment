@@ -1,0 +1,145 @@
+{
+  "title": "Avalanche Dynamics in Software Dependency Networks",
+  "config": {
+    "connectivity_values": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "replicates": 5,
+    "node_count": 450,
+    "steps": 5500,
+    "burn_in": 1000,
+    "sample_interval": 10,
+    "base_buffer": 1.5,
+    "buffer_slope": 0.4,
+    "large_avalanche_threshold": 20,
+    "seed": 42,
+    "example_node_count": 36,
+    "example_min_size": 8,
+    "example_max_size": 18
+  },
+  "summary_rows": [
+    {
+      "target_mean_dependencies": 1.0,
+      "actual_mean_indegree": 1.3408888888888888,
+      "mean_avalanche_size": 0.9439555555555555,
+      "median_avalanche_size": 0.0,
+      "p95_avalanche_size": 3.0,
+      "nonzero_probability": 0.2157777777777778,
+      "large_avalanche_probability": 0.007244444444444445,
+      "max_avalanche_size": 221,
+      "mean_max_depth": 0.3118222222222222,
+      "mean_vulnerable_fraction": 0.41035664439495173,
+      "mean_stress_ratio": 0.2978761280211169
+    },
+    {
+      "target_mean_dependencies": 2.0,
+      "actual_mean_indegree": 2.1724444444444444,
+      "mean_avalanche_size": 1.4309777777777777,
+      "median_avalanche_size": 0.0,
+      "p95_avalanche_size": 4.0,
+      "nonzero_probability": 0.23835555555555554,
+      "large_avalanche_probability": 0.012666666666666666,
+      "max_avalanche_size": 342,
+      "mean_max_depth": 0.35986666666666667,
+      "mean_vulnerable_fraction": 0.3612467211086365,
+      "mean_stress_ratio": 0.3087968390662377
+    },
+    {
+      "target_mean_dependencies": 3.0,
+      "actual_mean_indegree": 3.0164444444444443,
+      "mean_avalanche_size": 1.9246222222222222,
+      "median_avalanche_size": 0.0,
+      "p95_avalanche_size": 5.0,
+      "nonzero_probability": 0.2404888888888889,
+      "large_avalanche_probability": 0.015733333333333332,
+      "max_avalanche_size": 360,
+      "mean_max_depth": 0.3642666666666667,
+      "mean_vulnerable_fraction": 0.30877366988369215,
+      "mean_stress_ratio": 0.3113396403530479
+    },
+    {
+      "target_mean_dependencies": 4.0,
+      "actual_mean_indegree": 4.009777777777778,
+      "mean_avalanche_size": 2.375288888888889,
+      "median_avalanche_size": 0.0,
+      "p95_avalanche_size": 6.0,
+      "nonzero_probability": 0.24382222222222222,
+      "large_avalanche_probability": 0.019866666666666668,
+      "max_avalanche_size": 402,
+      "mean_max_depth": 0.38208888888888887,
+      "mean_vulnerable_fraction": 0.27185053204652315,
+      "mean_stress_ratio": 0.32538452858203415
+    },
+    {
+      "target_mean_dependencies": 5.0,
+      "actual_mean_indegree": 4.9448888888888884,
+      "mean_avalanche_size": 3.0492444444444446,
+      "median_avalanche_size": 0.0,
+      "p95_avalanche_size": 6.0,
+      "nonzero_probability": 0.24608888888888888,
+      "large_avalanche_probability": 0.021822222222222222,
+      "max_avalanche_size": 424,
+      "mean_max_depth": 0.38177777777777777,
+      "mean_vulnerable_fraction": 0.22735798069784707,
+      "mean_stress_ratio": 0.3266679907142268
+    }
+  ],
+  "selected_rows": {
+    "low": {
+      "target_mean_dependencies": 1.0,
+      "actual_mean_indegree": 1.3408888888888888,
+      "mean_avalanche_size": 0.9439555555555555,
+      "median_avalanche_size": 0.0,
+      "p95_avalanche_size": 3.0,
+      "nonzero_probability": 0.2157777777777778,
+      "large_avalanche_probability": 0.007244444444444445,
+      "max_avalanche_size": 221.0,
+      "mean_max_depth": 0.3118222222222222,
+      "mean_vulnerable_fraction": 0.41035664439495173,
+      "mean_stress_ratio": 0.2978761280211169
+    },
+    "mid": {
+      "target_mean_dependencies": 3.0,
+      "actual_mean_indegree": 3.0164444444444443,
+      "mean_avalanche_size": 1.9246222222222222,
+      "median_avalanche_size": 0.0,
+      "p95_avalanche_size": 5.0,
+      "nonzero_probability": 0.2404888888888889,
+      "large_avalanche_probability": 0.015733333333333332,
+      "max_avalanche_size": 360.0,
+      "mean_max_depth": 0.3642666666666667,
+      "mean_vulnerable_fraction": 0.30877366988369215,
+      "mean_stress_ratio": 0.3113396403530479
+    },
+    "high": {
+      "target_mean_dependencies": 5.0,
+      "actual_mean_indegree": 4.9448888888888884,
+      "mean_avalanche_size": 3.0492444444444446,
+      "median_avalanche_size": 0.0,
+      "p95_avalanche_size": 6.0,
+      "nonzero_probability": 0.24608888888888888,
+      "large_avalanche_probability": 0.021822222222222222,
+      "max_avalanche_size": 424.0,
+      "mean_max_depth": 0.38177777777777777,
+      "mean_vulnerable_fraction": 0.22735798069784707,
+      "mean_stress_ratio": 0.3266679907142268
+    }
+  },
+  "example_event": {
+    "shock_node": 0,
+    "avalanche_size": 10,
+    "total_updates": 11,
+    "max_depth": 3,
+    "actual_mean_indegree": 2.8333333333333335
+  },
+  "derived": {
+    "mean_avalanche_growth_factor": 3.2302839116719246,
+    "large_avalanche_probability_change_points": 1.4577777777777776,
+    "high_connectivity_max_avalanche": 424.0,
+    "mid_connectivity_vulnerable_fraction_percent": 30.877366988369214
+  }
+}
